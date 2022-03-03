@@ -14,12 +14,12 @@ class MyGrid(GridLayout):
         self.add_widget(self.name)
         
         self.add_widget(Label(text="Last Name: "))
-        self.name = TextInput(multiline = False)
-        self.add_widget(self.name)
+        self.lastName = TextInput(multiline = False)
+        self.add_widget(self.lastName)
         
         self.add_widget(Label(text="Email: "))
-        self.name = TextInput(multiline = False)
-        self.add_widget(self.name)
+        self.email = TextInput(multiline = False)
+        self.add_widget(self.email)
 
 class MyApp(App):
     def build(self):
